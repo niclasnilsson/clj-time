@@ -260,7 +260,7 @@
   []
   (DateTime. ^DateTimeZone utc))
 
-(defn now-str
+(defn now-str []
   (str (now)))
 
 (defn time-now

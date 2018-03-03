@@ -263,6 +263,9 @@
 (defn now-str []
   (str (now)))
 
+(defn talking-clock-now []
+  (str "Ok, I'll check... Time is now: " (now)))
+
 (defn time-now
   "Returns a LocalTime for the current instant without date or time zone
   using ISOChronology in the current time zone."

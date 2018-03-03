@@ -260,6 +260,9 @@
   []
   (DateTime. ^DateTimeZone utc))
 
+(defn now-str
+  (str (now))
+
 (defn time-now
   "Returns a LocalTime for the current instant without date or time zone
   using ISOChronology in the current time zone."
